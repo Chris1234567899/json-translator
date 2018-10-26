@@ -1,12 +1,14 @@
 # json-translator
-Simple node script to translate json files
+Simple node script to translate json files manually.
 
 
-run npm i, then:
+run npm i
+
+then:
 
 node translate.js path/to/your/file.json EN ES
 
-where EN is the source Language and ES the target language (use capital letters).
 
+where EN is the source language and ES the target language (use capital letters). You can change to other languages of course.
 
-this script is using https://www.npmjs.com/package/deepl-translator for translation
+This script is using https://www.npmjs.com/package/deepl-translator for translation
