@@ -47,7 +47,7 @@ iterate(json)
 
 Promise.all(promises).then(() => {
     setTimeout(() => {
-       fs.writeFile('./translations/translated-' + targetLang + '.json', JSON.stringify(json), (err) => {
+       fs.writeFile('./translated-' + targetLang + '.json', JSON.stringify(json), (err) => {
         if (!err) {
             console.log('done');
         }
