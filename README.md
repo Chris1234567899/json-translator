@@ -9,3 +9,4 @@ node translate.js path/to/your/file.json EN ES
 where EN is the source Language and ES the target language (use capital letters).
 
 
+this script is using https://www.npmjs.com/package/deepl-translator for translation
